@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <div class="header-opcao">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#reserva">Reservas</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
+            </div>
+            <div class="user">
+                <li><i class="fa-solid fa-user"></i></li>
+                <li><i class="fa-solid fa-arrow-right-to-bracket"></i></li>
+                <li><i class="fa-solid fa-cart-shopping"></i></li>
+            </div>
+        </ul>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <h1>Gastronomia Contemporânea & Experiências Únicas</h1>
+            <p>Descubra uma fusão de sabores sofisticados em um ambiente intimista. Onde cada prato conta uma história</p>
+            <button>Nossa Carta</button>
+        </section>
+
+        <section class="sobre" id="sobre">
+            <h2>Nossa Essência</h2>
+            <p>Desde 2010, o Le Caxias Bistrô redefine a alta gastronomia na Serra Gaúcha. Nossa cozinha valoriza ingredientes orgânicos de produtores locais, orquestrados com técnicas francesas e alma brasileira. Mais do que um jantar, oferecemos um refúgio para os amantes do bom vinho e da boa conversa.</p>
+        </section>
+
+        <section class="reserva" id="reserva">
+            <h2>Garanta Sua Mesa</h2>
+            <p>O cenário perfeito para ocasiões especiais. Devido à nossa capacidade limitada e foco na exclusividade, recomendamos realizar sua reserva com antecedência</p>
+            <div class="fotos-demos">
+                <article class="fotos">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500"
+                        alt="Vista geral do salão iluminado">
+                </article>
+
+                <article class="fotos">
+                    <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=500"
+                        alt="Detalhe de um prato gourmet sendo servido">
+                </article>
+
+                <article class="fotos">
+                    <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=500"
+                        alt="Área do bar com drinks coloridos">
+                </article>
+
+                <article class="fotos">
+                    <img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?w=500"
+                        alt="Mesa posta perto da janela">
+                </article>
+
+                <article class="fotos">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=500"
+                        alt="Chef finalizando um prato na cozinha aberta">
+                </article>
+            </div>
+
+            <button class="btn-abrir-modal">Reservar</button>
+        </section>
+
+        <section class="cardapio" id="cardapio">
+            <h2>Menu Degustação</h2>
+
+            <div id="pratos" class="categoria-menu">
+                <h3>Pratos Principais</h3>
+
+                <ul class="lista-itens">
+                    <li class="item">
+                        <div class="detalhes">
+                            <h4>Filé Mignon ao Molho Madeira</h4>
+                            <p>Acompanha risoto de queijo brie e aspargos frescos.</p>
+                        </div>
+                        <span class="preco">R$ 89</span>
+                    </li>
+
+                    <li class="item">
+                        <div class="detalhes">
+                            <h4>Salmão Grelhado com Alcaparras</h4>
+                            <p>Servido com purê de mandioquinha e legumes sauté.</p>
+                        </div>
+                        <span class="preco">R$ 75</span>
+                    </li>
+
+                    <li class="item">
+                        <div class="detalhes">
+                            <h4>Carré de Cordeiro</h4>
+                            <p>Crosta de ervas finas, cuscuz marroquino e hortelã.</p>
+                        </div>
+                        <span class="preco">R$ 110</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="vinhos" class="categoria-menu">
+                <h3>Carta de Vinhos</h3>
+
+                <ul class="lista-itens">
+                    <li class="item">
+                        <div class="detalhes">
+                            <h4>Cabernet Sauvignon (Reserva)</h4>
+                            <p>Safra 2018 - Notas de carvalho e frutas vermelhas.</p>
+                        </div>
+                        <span class="preco">R$ 140</span>
+                    </li>
+
+                    <li class="item">
+                        <div class="detalhes">
+                            <h4>Chardonnay (Branco)</h4>
+                            <p>Refrescante, ideal para acompanhar frutos do mar.</p>
+                        </div>
+                        <span class="preco">R$ 95</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="chef-destaque">
+            <div class="container-chef">
+                <div class="chef-texto">
+                    <span class="subtitulo">Exclusivo da Casa</span>
+                    <h2>A Sugestão do Chef</h2>
+
+                    <h3>Waygu ao Molho de Trufas Negras</h3>                   
+                    <p>Uma experiência sensorial única. Corte nobre de Wagyu A5 selado na manteiga de ervas, acompanhado de purê rústico de mandioquinha defumada e finalizado com lâminas de trufas negras frescas.</p>
+
+                    <div class="assinatura">
+                        <p>Harmoniza com nosso Cabernet Sauvignon 2018.</p>
+                        <span class="nome-chef">Chef Kaito</span>
+                    </div>
+                </div>
+
+                <div class="chef-imagem">
+                    <div class="moldura-dourada"></div>
+                    <img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1000" alt="Prato exclusivo do chef">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Horários</h3>
+                <p>Seg - Sex: 11:30 - 15:00</p>
+                <p>Jantar: 19:00 - 23:00</p>
+                <p>Sáb - Dom: 12:00 - 00:00</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Localização</h3>
+                <p>Rua da Gastronomia, 500</p>
+                <p>Caxias do Sul - RS</p>
+                <div class="redes-sociais">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 Le Caxias Bistrô. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <div class="modal-reserva">
+        <div class="modal-content">
+            <button class="fechar-modal-reserva"><i class="fa-solid fa-xmark"></i></button>
+            <form>
+                <input type="text" placeholder="Nome" required>
+                <input type="date" placeholder="Data" required>
+                <input type="time" placeholder="Hora" required>
+                <input type="email" placeholder="Email" required>
+                <input type="number" placeholder="Celular" required>
+
+                <button class="btn-reserva">Confirmar Reserva</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal-login">
+        <div class="modal-login-content">
+            <button class="fechar-modal-login"><i class="fa-solid fa-xmark"></i></button>
+            <form>
+                <input type="text" placeholder="Login" required>
+                <input type="password" placeholder="Senha" required>
+
+                <button class="logar-btn"><i class="fa-solid fa-arrow-right-to-bracket"></i></button>
+            </form>
+        </div>
+    </div>
+</body>
+
+<script src="sripts.js"></script>
+
+</html>
