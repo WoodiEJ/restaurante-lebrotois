@@ -112,7 +112,7 @@ header ul {
     color: white;
 }
 
-.hero button {
+.btn-carta {
     padding: 15px 40px;
     background-color: var(--dourado);
     color: black;
@@ -126,7 +126,7 @@ header ul {
     border-radius: 5px;
 }
 
-.hero button:hover {
+.btn-carta:hover {
     background-color: #fff;
     color: black;
 }
